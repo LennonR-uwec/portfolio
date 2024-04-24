@@ -1,0 +1,115 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10x 20x;
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+.my_work, .contact_info{
+padding: 0;
+color: #006142;
+border: none;
+border-radius: 0;
+cursor: pointer;
+margin: 0 150px;
+font-family: 'Times New Roman', Times, serif;
+font-size: larger;
+}
+section{
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    text-align: center;
+}
+main{
+    background-color: #006142;
+}
+.aboutme{
+text-align: center;
+padding: 0 20px;
+}
+.aboutmebox{
+background-color: white;
+padding: 0px;
+border-radius: 0px;
+}
+.mywork{
+    text-align: center;
+    padding:0px 20px ;
+}
+.myworkbox{
+background-color: white;
+padding: 0px;
+border-radius: 0px;
+}
+@media (min-width:1000px){
+    .my_work, .contact_info{
+        margin: 0 20px;
+        font-size: 2.1em;
+    }
+    .aboutme{
+        text-align: left;
+        padding: 0 20px;
+    }
+    .aboutme p{
+        font-size: 1.6em;
+    }
+    .aboutme h3{
+        font-size: 1.9em;
+    }
+    .mywork{
+        text-align: left;
+        padding: 0 20px;
+    }
+    .myworkbox{
+text-align: center;
+    }
+    .myworkbox p{
+        width: 50%;
+        padding-right: 20px;
+        white-space: nowrap;
+    }
+    .myworkbox > div {
+        width: 50%;
+        padding: 0 20px;
+    }
+    .mywork p {
+        font-size: 1.6em;
+    }
+    .mywork h3 {
+        font-size: 1.9em;
+    }
+    .work-item-stickers{
+        margin-bottom: 20px;
+    }
+    .work-item-stickers img{
+        max-width: 100%;
+        height: auto;
+    }
+ .mywork h3{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .myworkbox img.stickers {
+        width: 80%;
+        height: auto;
+        margin-right: 100px;
+    }
+    .myworkbox p {
+        margin-left: 20px;
+        text-align: left;
+}
+footer h2{
+font-size: 30px;
+}
+footer p{
+    font-size: 24px;
+    }
+}
